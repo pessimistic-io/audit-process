@@ -14,11 +14,12 @@ And a [questionnaire](https://hackmd.io/@pessimistic/Bks2dqSSY/) compiled by our
 
 ### Project setup
 
-Developing secure contracts without additional libraries, tools, and frameworks is nearly impossible. Hardhat and Truffle are the most common options.
+Developing secure contracts without additional libraries, tools, and frameworks is nearly impossible. Hardhat and Foundry
+are the most common options.
 
 Even more, tools work at 100% effectiveness only when all developers (or auditors) can reproduce all steps, i.e., compiling, testing, and deploying contracts. One cannot achieve it without dependency management tools (e.g., yarn/npm) since different versions of dependencies don't behave identically.
 
-We highly recommend setting up a project properly. Use dependency management tools (yarm/npm), testing frameworks (hardhat/truffle), linters (solhint), etc. Please take a look at repos of well-known teams; most of them have excellent project setup.
+We highly recommend setting up a project properly. Use dependency management tools (yarm/npm), testing frameworks (hardhat/foundry), linters (solhint), etc. Please take a look at repos of well-known teams; most of them have excellent project setup.
 
 ### Tests
 
@@ -36,7 +37,7 @@ We can audit the entire provided repository or a particular smart contract. We w
 
 ### Code freeze
 
-AWe start review only after the final commit is confirmed according to our rules. Please complete the development process before the audit begins to avoid chaos and time/cost increase.
+We start review only after the final commit is confirmed according to our rules. Please complete the development process before the audit begins to avoid chaos and time/cost increase.
 
 > Here is a useful article from Consensys on [how to prepare for an audit process](https://consensys.net/diligence/blog/2019/09/how-to-prepare-for-a-smart-contract-audit/).
 ---
@@ -77,7 +78,7 @@ If for some reason, the development team has difficulties implementing our recom
 
 If, for some reason, your team cannot provide the fixes within 10 working days, please let us know your prediction for the final code availability date as soon as possible. We need this information to better plan our timeline and reschedule the project recheck. Otherwise, the recheck date can become unpredictable and will be delayed until a suitable slot appears in the project auditor’s schedule.
 
-If we do not receive the updated code within a reasonable time (10 to 20 working days), the recheck may take more time and require an additional fee. The longer the delay since the initial audit, the fewer details the auditor remembers about the project. Another deep dive into the project may require extra effort after several weeks of work on other projects. In many cases, reviewing only the difference between the updated and initial code is not safe, so we thoroughly review even minor code updates.
+If we do not receive the updated code within a reasonable time (10 to 20 working days), the recheck may take more time and require an additional fee. The longer the delay since the initial audit, the fewer details the auditor remembers about the project. Another deep dive into the codebase may require extra effort after several weeks of work on other projects. In many cases, reviewing only the difference between the updated and initial code is not safe, so we thoroughly review even minor code updates.
 
 ### What is included in the recheck step
 
