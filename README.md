@@ -14,8 +14,7 @@ And a [questionnaire](https://hackmd.io/@pessimistic/Bks2dqSSY/) compiled by our
 
 ### Project setup
 
-Developing secure contracts without additional libraries, tools, and frameworks is nearly impossible. Hardhat and Foundry
-are the most common options.
+Developing secure contracts without additional libraries, tools, and frameworks is nearly impossible. Hardhat and Foundry are the most common options.
 
 Even more, tools work at 100% effectiveness only when all developers (or auditors) can reproduce all steps, i.e., compiling, testing, and deploying contracts. One cannot achieve it without dependency management tools (e.g., yarn/npm) since different versions of dependencies don't behave identically.
 
